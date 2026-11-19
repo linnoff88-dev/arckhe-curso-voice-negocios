@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en">
+<head>
+<meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>M4 — Appointment agent (ElevenLabs) · Agents by Niche</title><meta content="Functional setup — kept original." name="description"/>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Course","name":"M4 — Agente de consultas (ElevenLabs) · Agentes por Nicho","description":"Configuração funcional — mantida original.","inLanguage":"pt-BR"}</script>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>tailwind.config={darkMode:'class',theme:{extend:{colors:{dark:{900:'#111111',800:'#1a1a1a',700:'#242424',600:'#333333',400:'#888888',300:'#bbbbbb',200:'#dddddd'},primary:'#FACC15'}}}}</script>
+<style>body{font-family:ui-sans-serif,system-ui,sans-serif}
+.light-mode { background:#f8fafc; color:#334155; }
+.light-mode .bg-dark-900{background:#f1f5f9}.light-mode .bg-dark-800{background:#ffffff}
+.light-mode .bg-dark-700{background:#e2e8f0}.light-mode .border-dark-700,.light-mode .border-dark-600,.light-mode .border-dark-800{border-color:#cbd5e1}
+.light-mode .text-white{color:#0f172a}.light-mode .text-dark-300,.light-mode .text-dark-200{color:#334155}
+.light-mode .text-dark-400{color:#64748b}</style>
+<script>if(localStorage.getItem('tema')==='light')document.documentElement.classList.add('light-mode');</script>
+<link href="https://inematds.github.io/curso-voice-negocios/trilha1-por-nicho/modulo-1-4.html" hreflang="pt-BR" rel="alternate"/><link href="https://inematds.github.io/curso-voice-negocios/en/trilha1-por-nicho/modulo-1-4.html" hreflang="en" rel="alternate"/><link href="https://inematds.github.io/curso-voice-negocios/es/trilha1-por-nicho/modulo-1-4.html" hreflang="es" rel="alternate"/></head>
+<body class="bg-dark-900 text-dark-200 min-h-screen flex flex-col"><div class="inema-lang" style="position:fixed;right:14px;bottom:14px;z-index:9999;display:flex;gap:2px;padding:4px;border-radius:10px;background:rgba(12,12,16,.82);border:1px solid rgba(226,162,59,.45);font:600 12px/1 Sora,Inter,system-ui,sans-serif;backdrop-filter:blur(8px)" translate="no"><a href="../../trilha1-por-nicho/modulo-1-4.html" hreflang="pt-BR" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">PT</a><a href="modulo-1-4.html" hreflang="en" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#1a1206;background:#E2A23B">EN</a><a href="../../es/trilha1-por-nicho/modulo-1-4.html" hreflang="es" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">ES</a></div>
+<nav class="sticky top-0 z-40 backdrop-blur bg-dark-900/90 border-b border-dark-700">
+<div class="max-w-5xl mx-auto px-4 h-14 flex items-center gap-4">
+<a class="font-black text-white tracking-tight" href="../index.html">⚡ VOICE<span class="text-primary">COMMERCIAL</span></a>
+<span class="text-dark-600 hidden sm:inline">|</span>
+<a class="text-sky-400 hover:text-sky-300 text-sm font-medium hidden sm:inline" href="https://inema.club" rel="noopener" target="_blank">INEMA.CLUB</a>
+<div class="hidden lg:flex items-center gap-2 overflow-x-auto ml-auto"><a class="text-xs px-3 py-1.5 rounded-full border border-dark-600 hover:border-emerald-400 transition whitespace-nowrap" href="../trilha1-por-nicho/index.html">🏢 Agents by Niche</a>
+<a class="text-xs px-3 py-1.5 rounded-full border border-dark-600 hover:border-blue-400 transition whitespace-nowrap" href="../trilha2-vender/index.html">💼 Sell the Service</a></div>
+<button class="ml-4 text-lg" id="toggleTema" title="Switch theme">🌗</button>
+</div></nav>
+<main class="flex-1 max-w-5xl w-full mx-auto px-4 py-8">
+<div class="flex items-center gap-2 text-xs text-dark-400 mb-4 flex-wrap"><a class="hover:text-primary" href="../index.html">Home</a><span>/</span><a class="hover:text-primary" href="index.html">Agents by Niche</a><span>/</span><span class="text-dark-300">Module 4.4</span></div>
+<header class="bg-gradient-to-b from-emerald-500/20 to-transparent border border-emerald-500/30 rounded-2xl p-6 mb-8">
+<p class="text-xs text-emerald-400 font-bold mb-1">Agents by Niche · Module 4/6</p>
+<h1 class="text-2xl md:text-3xl font-black text-white mb-2">Appointment agent (ElevenLabs)</h1>
+<p class="text-dark-300 text-sm">Functional setup — kept original.</p>
+</header>
+<article class="prose-invert max-w-none"><ul class="list-disc pl-6 space-y-1.5 mb-4 text-dark-300"><li><strong>Section:</strong> Voice Ai</li><li><strong>Lesson link:</strong> https://www.skool.com/aiworkshop-lite/classroom/5b3aa9e5?md=5ce33501dc72452f99e08a3b378b0482</li></ul>
+<h3 class="text-lg font-bold text-white mt-7 mb-3 flex items-center gap-2"><span class="w-1 h-5 bg-primary rounded-full inline-block"></span>Description</h3><p class="mb-4 text-dark-300 leading-relaxed">_(no description)_</p><h3 class="text-lg font-bold text-white mt-7 mb-3 flex items-center gap-2"><span class="w-1 h-5 bg-primary rounded-full inline-block"></span>Downloaded Resources</h3><ul class="list-disc pl-6 space-y-1.5 mb-4 text-dark-300"><li><code class="px-1 py-0.5 rounded bg-dark-700 text-primary">54-11labs-consultation-voice-agent.json</code> — Eleven Labs Agent.json (ok (6856 bytes))</li></ul>
+<h4 class="text-base font-bold text-white mt-5 mb-2">Text by <code class="px-1 py-0.5 rounded bg-dark-700 text-primary">54-11labs-consultation-voice-agent.json</code></h4><div class="relative group"><button class="absolute right-2 top-2 z-10 text-xs px-2 py-1 rounded bg-dark-700 border border-dark-600 text-dark-200 opacity-0 group-hover:opacity-100 transition" onclick="navigator.clipboard.writeText(this.nextElementSibling.innerText);this.textContent='Copiado!';setTimeout(()=&gt;this.textContent='Copiar',1500)">Copy</button><pre class="bg-dark-800 border border-dark-700 rounded-xl p-4 overflow-x-auto text-sm leading-relaxed mb-4"><code>{
+  "name": "Eleven Labs Agent",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "test",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        -544,
+        -272
+      ],
+      "id": "2325c117-3fb9-4a6d-beb0-641483f054b7",
+      "name": "Webhook",
+      "webhookId": "85fff1c7-3aa5-41ce-8e86-035113ada4aa"
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={\n  \"status\": \"{{ JSON.stringify($json.output).replace(/(^\\\"|\\\"$)/g, '') }}\"\n}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [
+        80,
+        -272
+      ],
+      "id": "202f6151-d4ad-4296-b157-6dc03e5b148d",
+      "name": "Respond to Webhook"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=Name: {{ $json.body.name }}\nPhone: {{ $json.body.phone }}\nEmail: {{ $json.body.email }}\nDate: {{ $json.body.date }}\nTime: {{ $json.body.time }}\n\n{{ $json.query.request }}",
+        "options": {
+          "systemMessage": "=You are a helpful assistant who responds to user's request in a fun, friendly but professional way. Today's date is {{ $now }}.\n\nGuidelines:\n\nWeb and Information Queries:\n- For general information queries, use the SerpAPI tool to fetch results from Google Search.\n\nBooking:\n- If an appointment is being requested, first check the Get_Events tool to see if that requested meeting time is available and if it is available then use the Book_Meeting tool to create the appointment and send the confirmation, if the time requested is not available, provide all the available times as a response for the user to select a new time. \n\nResponse Structure:\n- Keep responses concise, short, and relevant to the user’s question.  Do not share any personal information, the ID of the meeting, or any sensitive data. "
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 1.7,
+      "position": [
+        -288,
+        -272
+      ],
+      "id": "6efb7f52-e38b-4df8-834a-1863588194d1",
+      "name": "AI Agent"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.toolSerpApi",
+      "typeVersion": 1,
+      "position": [
+        -48,
+        0
+      ],
+      "id": "066ed73f-4593-4e2d-8419-7fe03c72a59b",
+      "name": "SerpAPI",
+      "credentials": {
+        "serpApi": {
+          "id": "ACLipGmNmiDm3NNN",
+          "name": "SerpAPI account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "model": {
+          "__rl": true,
+          "value": "gpt-4.1-mini",
+          "mode": "list",
+          "cachedResultName": "gpt-4.1-mini"
+        },
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+      "typeVersion": 1.2,
+      "position": [
+        -496,
+        0
+      ],
+      "id": "ab68e09a-1d81-4b36-aa6c-9a42978c2000",
+      "name": "OpenAI Chat Model",
+      "credentials": {
+        "openAiApi": {
+          "id": "zE5O89L0JjnRwfPU",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "getAll",
+        "calendar": {
+          "__rl": true,
+          "value": "zubair.trabzada@gmail.com",
+          "mode": "list",
+          "cachedResultName": "zubair.trabzada@gmail.com"
+        },
+        "returnAll": true,
+        "options": {
+          "timeMin": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('After', `one day before the date the user requested`, 'string') }}",
+          "timeMax": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('Before', `one day after the date the user requested`, 'string') }}"
+        }
+      },
+      "id": "30f51d67-2fe8-4902-94c5-99775cbba0f6",
+      "name": "Get_Events",
+      "type": "n8n-nodes-base.googleCalendarTool",
+      "typeVersion": 1.2,
+      "position": [
+        -336,
+        0
+      ],
+      "credentials": {
+        "googleCalendarOAuth2Api": {
+          "id": "ooDdAehC422QioCi",
+          "name": "Google Calendar account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "calendar": {
+          "__rl": true,
+          "value": "zubair.trabzada@gmail.com",
+          "mode": "list",
+          "cachedResultName": "zubair.trabzada@gmail.com"
+        },
+        "start": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('Start', ``, 'string') }}",
+        "end": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('End', ``, 'string') }}",
+        "useDefaultReminders": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('Use_Default_Reminders', ``, 'boolean') }}",
+        "additionalFields": {
+          "attendees": [
+            "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('attendees0_Attendees', `email of the attendee`, 'string') }}"
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.googleCalendarTool",
+      "typeVersion": 1.3,
+      "position": [
+        -192,
+        0
+      ],
+      "id": "4f0acfcc-61f7-4efa-b431-47d38e9ec1a7",
+      "name": "Book_Meeting",
+      "credentials": {
+        "googleCalendarOAuth2Api": {
+          "id": "ooDdAehC422QioCi",
+          "name": "Google Calendar account"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "AI Agent": {
+      "main": [
+        [
+          {
+            "node": "Respond to Webhook",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "SerpAPI": {
+      "ai_tool": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenAI Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get_Events": {
+      "ai_tool": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Book_Meeting": {
+      "ai_tool": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "callerPolicy": "workflowsFromSameOwner"
+  },
+  "versionId": "82ab964e-83cc-4d72-974a-097bc4761e18",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "5f99b345c3a4501a22438ba5962ff6685e5e97ee4bd0a17cc04a19ed072b5c2a"
+  },
+  "id": "oeHODug86I91DcA9",
+  "tags": []
+}</code></pre></div></article>
+<div class="flex items-center justify-between mt-10 pt-6 border-t border-dark-700"><a class="text-left px-4 py-3 rounded-xl bg-dark-800 border border-dark-700 hover:border-emerald-400 transition" href="modulo-1-3.html"><div class="text-xs text-dark-400">← Previous</div><div class="text-sm text-white font-semibold truncate max-w-[180px]">Multilingual voice agent</div></a><a class="text-right px-4 py-3 rounded-xl bg-dark-800 border border-dark-700 hover:border-emerald-400 transition" href="modulo-1-5.html"><div class="text-xs text-dark-400">Next →</div><div class="text-sm text-white font-semibold truncate max-w-[180px]">Telynx voice agent</div></a></div>
+</main>
+<footer class="border-t border-dark-700 mt-16 py-8 text-center text-sm text-dark-400">
+<p>Study material translated for educational purposes.</p>
+<p class="mt-2"><a class="text-primary hover:underline" href="https://inema.club">INEMA.CLUB</a></p>
+</footer>
+<script>
+document.getElementById('toggleTema').addEventListener('click',()=>{
+const el=document.documentElement;el.classList.toggle('light-mode');
+localStorage.setItem('tema',el.classList.contains('light-mode')?'light':'dark');});
+</script>
+</body></html>
